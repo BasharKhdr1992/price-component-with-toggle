@@ -27,12 +27,12 @@ const StyledToggle = styled.div`
     background-color: white;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     position: absolute;
-    left: 0.25rem;
+    left: 2.25rem;
     transition: left 0.4s ease-out;
   }
 
   .toggle.active {
-    left: 2.25rem;
+    left: 0.25rem;
   }
 
   .toggle-text {

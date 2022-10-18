@@ -4,7 +4,7 @@ import PriceComponent from "./components/PriceComponent";
 import Toggle from "./components/Toggle";
 
 const App = () => {
-  const [isToggleAnnual, setIsToggleAnnual] = useState(true);
+  const [isToggleAnnual, setIsToggleAnnual] = useState(false);
 
   return (
     <div className="wrapper">

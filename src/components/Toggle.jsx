@@ -6,7 +6,7 @@ const Toggle = ({ setIsToggleAnnual, isToggleAnnual }) => {
     <StyledToggle>
       <span className="toggle-text">Annually</span>
       <div className="toggle-container" onClick={setIsToggleAnnual}>
-        <div className={`toggle ${isToggleAnnual ? undefined : "active"}`} />
+        <div className={`toggle ${isToggleAnnual ? "active" : undefined}`} />
       </div>
       <span className="toggle-text">Monthly</span>
     </StyledToggle>
