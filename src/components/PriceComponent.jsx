@@ -5,7 +5,7 @@ const PriceComponent = ({ isToggleAnnual }) => {
   return (
     <StyledPriceComponent>
       <div className="price-card basic">
-        <h4 className="card-title">basic</h4>
+        <p className="card-title">basic</p>
         <p className="price">{isToggleAnnual ? "$199.99" : "$19.99"}</p>
         <div className="features">
           <p className="feature-line">500 GB Storage</p>
@@ -17,7 +17,7 @@ const PriceComponent = ({ isToggleAnnual }) => {
         </button>
       </div>
       <div className="price-card professional">
-        <h4 className="card-title">professional</h4>
+        <p className="card-title">professional</p>
         <p className="price">{isToggleAnnual ? "$249.99" : "$24.99"}</p>
         <div className="features">
           <p className="feature-line">1 TB Storage</p>
@@ -29,7 +29,7 @@ const PriceComponent = ({ isToggleAnnual }) => {
         </button>
       </div>
       <div className="price-card master">
-        <h4 className="card-title">master</h4>
+        <p className="card-title">master</p>
         <p className="price">{isToggleAnnual ? "$399.99" : "$39.99"}</p>
         <div className="features">
           <p className="feature-line">2 TB Storage</p>
