@@ -5,7 +5,7 @@ const StyledPriceComponent = styled.div`
   width: 70%;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 475px;
 
   .price-card {
     text-align: center;
